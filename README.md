@@ -2,3 +2,5 @@
 An old-skool history menu that shows everything
 
 WebExtension for Firefox and Chrome
+
+![screenshot](https://github.com/dsharhon/history_classic/blob/master/screenshot.png)
