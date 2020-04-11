@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "History Classic",
+  "author": "Dylan Sharhon",
+  "version": "1.0.0",
+
+  "description": "An old-school scrollable history menu",
+
+  "icons": {
+    "48": "48.png"
+  },
+  
+  "permissions": [
+    "history"
+  ],
+  
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "History Classic",
+    "default_icon": "48.png"
+  }
+}
