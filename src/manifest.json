@@ -2,9 +2,9 @@
   "manifest_version": 2,
   "name": "History Classic",
   "author": "Dylan Sharhon",
-  "version": "1.0.0",
+  "version": "2.0.0",
 
-  "description": "An old-school scrollable history menu",
+  "description": "An old-skool history menu that shows everything",
 
   "icons": {
     "48": "48.png"
