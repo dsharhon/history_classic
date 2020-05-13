@@ -4,13 +4,20 @@
 <head>
   <meta charset="utf-8">
   <title>History Classic</title>
-  <script type="module" src="popup.mjs"></script>
+  <script type="module" src="popup.js"></script>
   <style>
     body {
       font-family: sans-serif;
       font-size: small;
       line-height: 1.4em;
-      max-width: 55em;
+      width: 45em;
+      min-height: 10em;
+      max-width: 100%;
+    }
+    input {
+      display: block;
+      width: 40em;
+      margin: 0 auto;
     }
     a {
       display: block;
@@ -22,6 +29,9 @@
   </style>
 </head>
 
-<body></body>
+<body>
+  <input id="filter" placeholder="Filter">
+  <div id="results"></div>
+</body>
 
 </html>
